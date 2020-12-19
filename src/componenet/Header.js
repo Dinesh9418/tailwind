@@ -1,0 +1,19 @@
+import React from 'react'
+
+export default function Header() {
+    return (
+        <nav>
+            <div className ="logo">cricket Bats</div>
+            <ul>
+                <li>Home</li>
+                <li>Our Services</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+            <div className = 'search'>
+                <i className = "fa fa-search"></i>
+                <i className = "fa fa-shopping-basket"></i>
+            </div>
+        </nav>
+    )
+}
